@@ -119,7 +119,7 @@ Each GPIO pin is connected to the **INPUT** terminal of its respective optocoupl
 4. **Connect the INPUT -** on both optocoupler modules to the Wago Connector.
 5. **The Wago connector** should be connected to GND on the ESP32.
 
-![Wiring Diagram](hardware/wiring_diagram.png) 
+![Wiring Diagram](/hardware/wiring_diagram.png) 
 ---
 
 ### ✅ Your System Is Now Fully Wired
