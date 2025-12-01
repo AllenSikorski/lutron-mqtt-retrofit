@@ -25,12 +25,12 @@ This project retrofits a commercial 277V Lutron lighting system to be MQTT-contr
 
 ## 📶 Networking & Integration
 
-| Component | Description | Notes | Link |
-|----------|-------------|-------|------|
-| **Wi-Fi Network** | ESP32 connects to LAN | Used for MQTT communication | — |
-| **Mosquitto MQTT Broker** | Self-hosted at `192.168.0.2` | Requires username & password auth |  [Home Assistant Mosquitto Addon]([https://www.home-assistant.io/](https://www.home-assistant.io/integrations/mqtt/))  |
-| **Home Assistant** (optional) | Receives MQTT state | Optional integration layer | [Home Assistant](https://www.home-assistant.io/) |
-| **Node-RED** | Automation logic | Controls ON/OFF events, schedules, time blocks |  [Home Assistant Mosquitto Addon]([https://www.home-assistant.io/](https://github.com/hassio-addons/addon-node-red))  |
+| Component              | Description             | Notes                                         | Link                                                                                  |
+|------------------------|--------------------------|-----------------------------------------------|---------------------------------------------------------------------------------------|
+| **Wi-Fi Network**      | ESP32 connects to LAN    | Used for MQTT communication                   | —                                                                                     |
+| **Mosquitto MQTT Broker** | Self-hosted at `192.168.0.2` | Requires username & password auth             | [Mosquitto Add-on for Home Assistant](https://www.home-assistant.io/integrations/mqtt/) |
+| **Home Assistant** *(optional)* | Receives MQTT state       | Optional integration layer                    | [Home Assistant](https://www.home-assistant.io/)                                      |
+| **Node-RED**           | Automation logic         | Controls ON/OFF events, schedules, time blocks | [Node-RED Add-on for Home Assistant](https://github.com/hassio-addons/addon-node-red) |
 
 ---
 
