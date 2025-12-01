@@ -90,7 +90,7 @@ mqtt:
       state_off: "off"
 ```
 
-### 🔌 Wiring Diagram
+### 📷 Wiring Diagram
 
 Below is a high-level overview of how the ESP32, optocouplers, and Lutron control module are connected. The ESP32 powers the Lutron board directly and simulates button presses via two isolated optocoupler modules.
 
