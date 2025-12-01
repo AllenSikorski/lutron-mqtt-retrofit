@@ -87,15 +87,52 @@ Each wire will go into the input side of an **EL817 optocoupler module**. The ES
 
 ---
 
-## 📦 9. Final Enclosure Mount
+## 🧠 9. ESP32 Wiring Notes
 
-Mount all components (ESP32, optos, sensor board) into a weatherproof enclosure if needed. Route all wiring securely.
+- Each optocoupler’s input side is connected to an ESP32 GPIO and GND.
+- The output side (phototransistor) connects across the button pad wire and the Lutron board's GND.
 
-
-<img width="1156" height="856" alt="image" src="https://github.com/user-attachments/assets/339db338-2a37-4957-a7be-7ff0fe04746e" />
-
+<img width="865" height="664" alt="image" src="https://github.com/user-attachments/assets/2a5ac5ea-5109-4bc4-9cf8-2547e3cc189e" />
 
 ---
+
+## 🔌 10. Final GPIO Wiring – Completing the Circuit
+
+Now that everything is soldered, mounted, and enclosed, it's time to wire the final connections that allow the ESP32 to control the original Lutron board, completing the retrofit.
+
+This step connects the ESP32's **GPIO 5** and **GPIO 18** to the input pads of the Lutron PCB that originally came from the physical pushbuttons. These GPIO pins will **simulate button presses** via the optocoupler outputs.
+
+### 🧠 What These Pins Do
+
+- **GPIO 5** → Controls the “ON” button optocoupler  
+- **GPIO 18** → Controls the “OFF” button optocoupler  
+
+Each GPIO pin is connected to the **INPUT** terminal of its respective optocoupler module. When activated (set HIGH in firmware), it causes the opto to close its internal transistor, mimicking a button press.
+
+---
+
+### 🪛 Wiring Instructions
+
+1. **Locate your optocoupler module**. You should see two **INPUT** terminals, one for each opto channel.
+2. **Connect GPIO 5** from the ESP32 to **INPUT +** on the optocoupler module that goes to the **ON** button.
+3. **Connect GPIO 18** from the ESP32 to **INPUT +** on the optocoupler module that goes to the **OFF** button.
+4. **Connect the **INPUT -** on both optocoupler modules to the Wago Connector.
+5. **The Wago connector should be connected to GND on the ESP32.
+
+---
+
+### ✅ Your System Is Now Fully Wired
+
+Once these two GPIO lines are connected:
+- Node-RED can send MQTT commands to trigger GPIO 5 or 18.
+- This toggles the optocouplers.
+- The optos simulate button presses on the Lutron board.
+- Lights turn ON or OFF — fully automated.
+
+> 🔄 This is the **final step** that links software logic (MQTT, Node-RED) to physical control.
+
+---
+
 
 ## ✅ Done!
 
