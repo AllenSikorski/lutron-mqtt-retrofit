@@ -63,8 +63,7 @@ The Lutron board is designed for a CR123A battery (3.0V), but in practice, it to
 
 Now solder thin wires to each of the three button pads.
 
-📷 **Insert:**  
-`20251201_180927631_iOS.heic` — _Wires soldered to button pads_  
+<img width="695" height="908" alt="image" src="https://github.com/user-attachments/assets/1f8c01ee-4f53-4ef5-9198-95cc69ac3b46" />
 
 > 💡 Tip: Tin the wire tips first. Use tweezers to hold the wire while tapping solder quickly to avoid pad damage.
 
@@ -74,7 +73,8 @@ Now solder thin wires to each of the three button pads.
 
 Each wire will go into the input side of an **EL817 optocoupler module**. The ESP32 will trigger the optos, and the optos will act like "virtual fingers" pressing the Lutron buttons.
 
-<img width="695" height="908" alt="image" src="https://github.com/user-attachments/assets/1f8c01ee-4f53-4ef5-9198-95cc69ac3b46" />
+<img width="433" height="242" alt="image" src="https://github.com/user-attachments/assets/b9a5d2c2-4db9-4d2c-b467-af5a6b7f0b87" />
+
 
 ---
 
