@@ -116,9 +116,10 @@ Each GPIO pin is connected to the **INPUT** terminal of its respective optocoupl
 1. **Locate your optocoupler module**. You should see two **INPUT** terminals, one for each opto channel.
 2. **Connect GPIO 5** from the ESP32 to **INPUT +** on the optocoupler module that goes to the **ON** button.
 3. **Connect GPIO 18** from the ESP32 to **INPUT +** on the optocoupler module that goes to the **OFF** button.
-4. **Connect the **INPUT -** on both optocoupler modules to the Wago Connector.
-5. **The Wago connector should be connected to GND on the ESP32.
+4. **Connect the INPUT -** on both optocoupler modules to the Wago Connector.
+5. **The Wago connector** should be connected to GND on the ESP32.
 
+![Wiring Diagram](hardware/wiring_diagram.png) 
 ---
 
 ### ✅ Your System Is Now Fully Wired
