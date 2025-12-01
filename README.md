@@ -97,3 +97,16 @@ Below is a high-level overview of how the ESP32, optocouplers, and Lutron contro
 ![Wiring Diagram](hardware/wiring_diagram.pdf)
 
 <img width="1275" height="967" alt="image" src="https://github.com/user-attachments/assets/4e01abbc-b5fb-447c-b868-63564c7faeb2" />
+
+---
+
+## 🧩 Conclusion & Next Steps
+
+This retrofit gave us full control over our legacy 277V lighting using open-source tools and commodity hardware — no more vendor lock-in. What started as a locked-down motion sensor is now a smart relay controllable via Zigbee buttons, dashboards, and automation flows.
+
+Whether you're upgrading a commercial system or just hacking together your own smart building, we hope this gives you a strong foundation to start from.
+
+💬 **Have questions, suggestions, or improvements?**  
+Feel free to fork, open an issue, or reach out!
+
+
