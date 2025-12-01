@@ -73,7 +73,7 @@ Now solder thin wires to each of the three button pads.
 
 Each wire will go into the input side of an **EL817 optocoupler module**. The ESP32 will trigger the optos, and the optos will act like "virtual fingers" pressing the Lutron buttons.
 
-<img width="433" height="242" alt="image" src="https://github.com/user-attachments/assets/b9a5d2c2-4db9-4d2c-b467-af5a6b7f0b87" />
+<img width="1300" height="646" alt="image" src="https://github.com/user-attachments/assets/a49546de-0357-4519-b261-42474c10777e" />
 
 
 ---
