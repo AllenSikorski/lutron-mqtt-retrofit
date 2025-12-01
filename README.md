@@ -102,9 +102,7 @@ Below is a high-level overview of how the ESP32, optocouplers, and Lutron contro
 
 ## 🧩 Conclusion & Next Steps
 
-This retrofit gave us full control over our legacy 277V lighting using open-source tools and commodity hardware — no more vendor lock-in. What started as a locked-down motion sensor is now a smart relay controllable via Zigbee buttons, dashboards, and automation flows.
-
-Whether you're upgrading a commercial system or just hacking together your own smart building, we hope this gives you a strong foundation to start from.
+This retrofit gave us full control over our legacy 277V lighting using open-source tools and commodity hardware with no more vendor lock-in. What started as a locked-down motion sensor is now a smart relay controllable via Zigbee buttons, dashboards, and automation flows.
 
 💬 **Have questions, suggestions, or improvements?**  
 Feel free to fork, open an issue, or reach out!
