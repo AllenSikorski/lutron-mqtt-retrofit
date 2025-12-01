@@ -1,6 +1,6 @@
-# 🧰 Soldering Guide: ESP32-Controlled Retrofit for Lutron RMJ-16R-DV-B
+# 🧰 Hardware Assembly Guide: ESP32-Controlled Retrofit for Lutron RMJ-16R-DV-B
 
-This guide walks you through the full process of modifying a Lutron RMJ-16R-DV-B relay module to integrate with an ESP32 for Home Assistant control via MQTT. You'll bypass the battery, solder directly to the button pads, and use optocouplers to safely trigger the device.
+This guide walks you through the full hardware retrofit and assembly process for converting a Lutron RMJ-16R-DV-B relay module into an ESP32-controlled unit, integrated with Home Assistant via MQTT. You'll bypass the internal battery, solder directly to button pads, add optocouplers, and complete all physical wiring inside a weatherproof junction box.
 
 ---
 
