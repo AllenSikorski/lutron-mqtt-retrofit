@@ -19,7 +19,7 @@ We'll be working with the following parts:
 <img width="291" height="384" alt="image" src="https://github.com/user-attachments/assets/04529156-9967-4746-ac83-bd0d15f6701b" />
 
 
-<img width="451" height="718" alt="image" src="https://github.com/user-attachments/assets/4bc69c06-4f20-4cf2-857f-96b335153ebb" />
+<img width="291" height="384" alt="image" src="https://github.com/user-attachments/assets/4bc69c06-4f20-4cf2-857f-96b335153ebb" />
 
 
 ---
