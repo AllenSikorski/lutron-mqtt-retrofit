@@ -1,4 +1,4 @@
-# lutron Lights Automation (Node-RED)
+# Lutron Lights Automation (Node-RED)
 
 This flow controls the lutron lights using MQTT, Home Assistant input_booleans, Zigbee buttons, and motion sensors. It also includes scheduled automations and state feedback.
 
