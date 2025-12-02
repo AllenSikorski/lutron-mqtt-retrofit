@@ -95,14 +95,14 @@ It's designed to be generic and works with any system listening on your MQTT top
 
 ---
 
-# Lutron Motion Light Control – Node-RED Motion Flow
+## Lutron Motion Light Control – Node-RED Motion Flow
 
 This flow listens for motion events and turns on the lutron lights if automation is enabled. It uses a toggle to easily turn the automation on or off from Home Assistant or any other source.
 
 <img width="911" height="176" alt="image" src="https://github.com/user-attachments/assets/2d8b375c-5cc4-4034-bf58-bd4656320bdd" />
 
 
-## 🔄 Flow Logic
+### 🔄 Flow Logic
 
 - **Trigger**: Any motion sensor publishes a motion detection event.
 - **Toggle Check**: The flow checks if motion-based lighting is enabled via a boolean control (such as `input_boolean.motion_enabled`).
@@ -170,6 +170,14 @@ With payload:
   "state": "OFF"
 }
 ```
+---
 
+# ✅ Wrapping Up
 
+This lighting control system provides **reliable automation** for energy savings and operational efficiency. Whether controlled by manual push-button, scheduled timers, or external motion sensors, the Node-RED flow ensures:
 
+- **Consistent light control** across defined schedules
+- **Real-time state publishing** to MQTT for UI dashboards or third-party integrations
+- **Modular logic** that can be extended for holidays, occupancy triggers, or overrides
+
+This setup gives a solid foundation for **smart building automation**, and can easily scale as your needs evolve.
